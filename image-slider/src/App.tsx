@@ -1,7 +1,12 @@
 import React from 'react';
+import BannerSection from './Component/BannerSection';
 
 function App() {
-  return <div className='App'>app</div>;
+  return (
+    <div>
+      <BannerSection />
+    </div>
+  );
 }
 
 export default App;
